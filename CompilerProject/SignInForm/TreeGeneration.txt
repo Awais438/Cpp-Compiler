@@ -1,0 +1,10 @@
++- Operator (Root): MINUS
+    +- Operator (LeftChild): PLUS
+        +- Operator (LeftChild): MULTIPLY
+            +- Operator (LeftChild): DIVIDE
+                +- Constant (LeftChild): 10
+                +- Constant (RightChild): 2
+            |            |            +- Constant (RightChild): 4
+        |        |        +- Constant (RightChild): 2
+    |    |    +- Constant (RightChild): 12
+||
